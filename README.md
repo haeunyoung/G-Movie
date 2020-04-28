@@ -109,14 +109,14 @@ After running the server, proceed to membership registration and store the membe
 $ manage.py migrate --run-syncdb
 ```
 <br>
-
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/44631215/80536029-b45c9c00-89dc-11ea-96b9-c0a4f03eb271.PNG" width="50%">
-  </div><br>
-  
+ 
 In order to distinguish between video providers and viewers, they are classified by level in Django administration.<br>
 
 <br>
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/44631215/80536029-b45c9c00-89dc-11ea-96b9-c0a4f03eb271.PNG" width="50%">
+  </div><br>
+ 
 Register videos to be provided to video viewers.
 The code is in register_video.html.
 If you click the 'Register' button, the video will be saved in a file called media.
