@@ -1,7 +1,5 @@
-# READ
-
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/44631215/80525792-c0d8f880-89cc-11ea-91cb-3a63d28e6e2a.PNG">
+  <img src="https://user-images.githubusercontent.com/44631215/80526256-7015cf80-89cd-11ea-8ffa-ad0234451773.PNG">
 </div>
 
 
