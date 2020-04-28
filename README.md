@@ -1,5 +1,10 @@
 # READ
 
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/44631215/80525792-c0d8f880-89cc-11ea-91cb-3a63d28e6e2a.PNG">
+</div>
+
+
 With the recent development of the Internet and streaming services, more Internet lectures are being created, and demand is also increasing.
 However, these Internet lectures continue to have a similar system, and there are still things that cause discomfort by listening in the system.
 First, the Internet lecture is a structure in which the lecturer and the viewer cannot interact.
