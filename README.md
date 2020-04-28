@@ -8,8 +8,15 @@
 <a href="https://opencv.org/"><img alt="openCV" src="https://img.shields.io/badge/OpenCV-4.3.0-red.svg"/></a>
 <a href="https://www.djangoproject.com/"><img alt="django" src="https://img.shields.io/badge/django-3.0-green.svg"/></a>
   <a href="https://www.djangoproject.com/"><img alt="djangorestframework" src="https://img.shields.io/badge/djangorestframework-3.10.3-brightgreen.svg?style=flat"/></a>
+  <br>
+  <p>
   
-##Motivation
+<h2>Motivation</h2></br>
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/44631215/80531155-174a3500-89d5-11ea-82a7-27d428533fd1.gif">
+</p>
+<br><br>
 <p>With the recent development of the Internet and streaming services, more Internet lectures are being created, and demand is also increasing.
 However, these Internet lectures continue to have a similar system, and there are still things that cause discomfort by listening in the system.
 First, the Internet lecture is a structure in which the lecturer and the viewer cannot interact.
@@ -20,3 +27,49 @@ It is a process divided into Reaction evaluation part that judges user's concent
 Through this solution, video viewers can analyze the concentration level of the video to compensate for the lack of concentration and provide motivation to increase concentration.
 Video providers can also see the concentration of viewers, grasp the strengths and weaknesses of their video, and make efforts to improve the video.
   </p>
+<br>
+
+<h2>Install</h2></br>
+
+See the [Python install guide](https://www.python.org/downloads/) for the
+[pip package](https://www.python.org/downloads/pip) to install the necessary modules to run basic Python functions.
+```
+$ pip install scikit-learn
+```
+```
+$ pip install numpy
+```
+```
+$ pip install pandas
+```
+<br>
+The OpenCV module can be installed via pip.
+
+```
+$ python -m pip install opencv-python
+```
+<br>
+Make sure opencv is installed properly.
+
+```
+ import cv2
+print(cv2.__version__)
+```
+<br>
+Install to complement the poor usability of OpenCV.
+
+```
+$ pip install dlib
+```
+```
+$ pip install imutils
+```
+<br>
+Use GridSearchCV to find the best parameters.
+
+```
+$ pip install xgboost
+```
+<br>
+
+[Download](https://pjreddie.com/darknet/yolo/) the yolo-coco file in read\analyzer for real-time object detection.
