@@ -1,3 +1,4 @@
+<br>
 <div align="center">
   <img src="https://user-images.githubusercontent.com/44631215/80526256-7015cf80-89cd-11ea-8ffa-ad0234451773.PNG">
 </div>
@@ -73,3 +74,45 @@ $ pip install xgboost
 <br>
 
 [Download](https://pjreddie.com/darknet/yolo/) the yolo-coco file in read\analyzer for real-time object detection.
+
+<br>
+
+It is a platform that provides video and utilizes user information and analyzes it using a web server and a pro-end.
+We installed these two because we used bootstrap as django and frontend as backend.
+<br>
+###bootstrap
+Since we created a web page with bootstrap, you can use bootstrap if you want to [change it to a web page](https://getbootstrap.com/docs/3.3/getting-started/) of your choice.
+<br>
+###Django
+Python 3.x version or higher is possible, so check the version.
+
+```
+$ python --version
+$ pip install django
+$pip3 install djangorestframework
+```
+<br>
+To run the server, run a cmd window in the part of manage.py in the READ file.
+
+```
+$ manage.py migrate
+$ python manage.py runservero
+```
+<br>
+After running the server, proceed to membership registration and store the membership information on the DB.
+
+```
+$ manage.py migrate --run-syncdb
+```
+<br>
+In order to distinguish between video providers and viewers, they are classified by level in Django administration.
+
+<h2>Credits</h2></br>
+Gachon University software department
+***김보배 김동욱 하은영***
+<br>
+<h2>Opensorce</h2></br>
+<a href="https://canvasjs.com/"><img alt="openCV" src="https://img.shields.io/badge/OpenCV-4.3.0-red.svg"/></a>
+[canvas.js](https://canvasjs.com/)
+[chart.js](https://www.chartjs.org/)
+[xgboost]
