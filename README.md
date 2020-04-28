@@ -109,11 +109,14 @@ After running the server, proceed to membership registration and store the membe
 $ manage.py migrate --run-syncdb
 ```
 <br>
-In order to distinguish between video providers and viewers, they are classified by level in Django administration.<br>
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/44631215/80536029-b45c9c00-89dc-11ea-96b9-c0a4f03eb271.PNG">
-</div>
 
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/44631215/80536029-b45c9c00-89dc-11ea-96b9-c0a4f03eb271.PNG" width="50%">
+  </div><br>
+  
+In order to distinguish between video providers and viewers, they are classified by level in Django administration.<br>
+
+<br>
 Register videos to be provided to video viewers.
 The code is in register_video.html.
 If you click the 'Register' button, the video will be saved in a file called media.
@@ -215,7 +218,15 @@ Save the model in json format.
 The concentration value stored in json format is displayed using the dashboard for easy viewing by the user.
 You can see where you are not paying attention.<br>
 
+
+<div align="center">
+
+  <img src="https://user-images.githubusercontent.com/44631215/80542066-4ff30a00-89e7-11ea-9778-1dae028af9b7.PNG" width="80%">
+</div><br>
 It is a dashboard to show the concentration of each video time.
+
+<br>
+
 ```
 
 for(var i = 0; i < time.length; i++){
@@ -251,6 +262,11 @@ for(var i = 0; i < time.length; i++){
 }
 ```
 <br>
+
+
+
+  <img src="https://user-images.githubusercontent.com/44631215/80542060-4ec1dd00-89e7-11ea-91f1-f12fbfa34e7f.PNG" align="left" width="35%">
+
 It is a dashboard to show the overall concentration of images.
 
 ```
@@ -281,9 +297,9 @@ piechart.render();
 
 ***김보배 김동욱 하은영***
 <br>
-<h2>Opensource</h2></br>
-<a href="https://canvasjs.com/">canvas.js<img alt="canvas.js" src="https://www.comparasoftware.com/wp-content/uploads/2018/07/canvasjslogo.png"/></a>
 
-<a href="https://www.chartjs.org/">chart.js<img alt="chart.js" src=https://1stwebdesigner.com/wp-content/uploads/2016/05/chart-thumb.jpg"/></a>
-  
-[xgboost]
+[canvas.js]<https://canvasjs.com/>
+ <br>
+  [chart.js]<https://www.chartjs.org/>
+ <br>
+
