@@ -90,7 +90,7 @@ Python 3.x version or higher is possible, so check the version.
 ```
 $ python --version
 $ pip install django
-$pip3 install djangorestframework
+$ pip3 install djangorestframework
 ```
 <br>
 To run the server, run a cmd window in the part of manage.py in the READ file.
@@ -203,8 +203,8 @@ params = {
         'colsample_bytree': [0.6, 0.8, 1.0],
         'max_depth': [3, 4, 5]
         }
-xgb = XGBClassifier(learning_rate=0.02, n_estimators=600, objective='binary:logistic',silent=True, nthread=1)
-model = GridSearchCV(xgb, params, refit=True)
+xgb = XGBClassifier(learning_rate=0.02, n_estimators=600, objective='binary:logistic',silent=True, nthread=1)
+model = GridSearchCV(xgb, params, refit=True)
 model.fit(X_train, y_train)
 y_predict = pd.Series(model.predict(X_test))
 
